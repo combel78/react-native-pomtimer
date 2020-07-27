@@ -17,7 +17,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "bundleIdentifier": "de.jport.pomtimer",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "de.jport.pomtimer",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
